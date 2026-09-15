@@ -1,0 +1,39 @@
+.header {
+    margin-bottom: 50px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main {
+    text-align: center;
+}
+
+.about__img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__photo {
+    display: flex;
+    flex-wrap: wrap;       /* чтобы переносилось на новую строку, если не влезает */
+    gap: 50px;             /* отступ между фото */
+    justify-content: center; /* по желанию: выравнивание по центру */
+}
+
+.gallery__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
